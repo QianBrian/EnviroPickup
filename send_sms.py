@@ -4,10 +4,10 @@ from twilio.rest import Client
 
 def send_mes():
 
-    account_sid = "AC7469b6a99b9ab2f06de0caaac30d31c0"
-    auth_token = "bb24ede759a8caf48535c7fc9c30a78b"
-    # account_sid = "ACfd1b44eac82dc1894035f5b86b967c48"
-    # auth_token = "16f4cc09309c0ef7ea3773d35a8826cd"
+    account_sid = "AC*******"
+    auth_token = "**************"
+    # account_sid = "AC**************"
+    # auth_token = "************"
 
     client = Client(account_sid, auth_token)
 
