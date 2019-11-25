@@ -9,7 +9,7 @@ To help the city of London and to prevent further damage to the environment with
 
 Open data on London's garbage collection zones and addresses were used. Through point and polygon detection from lat/long coordinates provided, an address was considered to be within a Zone if it's point coordinate was within a zone polygon. Once a threshold of residence within an area is reached, specialized garbage trucks would be dispatched to pick up the non-collectable garbage—only after sending an automatic notification that lets the users be aware of the pickup day.
 
-Twilio, shapely, pandas, fiona, and the City of London's recent open database was used for building this project.
+Twilio, shapely, pandas, and fiona libraries, as well as the City of London's recent open database was used for building this project.
 
 City of London Address database: https://opendata.london.ca/datasets/24b16712d14c42d7ac1e679c8c89bf47_0
 
